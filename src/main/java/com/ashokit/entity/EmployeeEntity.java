@@ -19,5 +19,7 @@ public class EmployeeEntity {
 	private String ename;
 	@Column(name="EMP_ADDR")
 	private String eaddr;
+	@Column(name="EMP_SAL")
+	private Double empsal;
 
 }

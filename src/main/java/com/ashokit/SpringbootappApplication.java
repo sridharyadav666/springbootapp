@@ -19,6 +19,7 @@ public class SpringbootappApplication {
 		entity.setEid(111);
 		entity.setEname("Pawankalyan");
 		entity.setEaddr("Hyd");
+		entity.setEmpsal(50000.00);
 		
 		boolean insertEmployee = service.insertEmployee(entity);
 		
